@@ -1,0 +1,42 @@
+parameters: {}
+environment: {}
+packages:
+    - name: chiron
+      shared: false
+      environment: {}
+      parameters: {}
+      annotations: {}
+      functions:
+          - name: app
+            binary: false
+            main: ""
+            runtime: python:3.11
+            web: true
+            webSecure: false
+            parameters: {}
+            environment: {}
+            annotations: {}
+            limits: {}
+
+          - name: create_transcript
+            binary: false
+            main: ""
+            runtime: python:3.11
+            web: true
+            webSecure: false
+            parameters: {}
+            environment: {}
+            annotations: {}
+            limits: {}
+
+          - name: vectorize
+            binary: false
+            main: ""
+            runtime: python:3.11
+            web: true
+            webSecure: false
+            parameters: {}
+            environment: {}
+            annotations: {}
+            limits: {}
+            
